@@ -86,6 +86,12 @@ a:hover {
     text-decoration: underline;
 }
 
+address {
+    font-size: 10;
+	font-family: Arial;
+    font-style: italic;
+}
+
 #intro_format {
 	font-weight: bold;
 	margin: 5px 25px 30px 25px;
