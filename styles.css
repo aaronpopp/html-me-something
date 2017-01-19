@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/*body {
+	line-height: 1;*/
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	text-align: center;
+	background-color: #f8f0d5;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 45px;
+	font-weight: bold;
+	color: #7a0912;
+	padding: 5px;
+}
+
+h3 {
+	margin: 40px 25px 5px 25px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #7a0912;
+}
+
+a:link {
+    color: #7a0912;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #400409;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#intro_format {
+	font-weight: bold;
+	margin: 5px 25px 30px 25px;
+	padding: 5px;
+}
+
+#body_p_format {
+	margin: auto;
+	text-align: center;
+	width: 75%;
+	padding: 5px;
+	border: solid 1px;
+}
+
+.spaced_out {
+	margin-top: 45px;
+	margin-bottom: 25px;
+}
