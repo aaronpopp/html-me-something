@@ -2,35 +2,35 @@
 <html>
 
 <head>
+    <link type="text/css" rel="stylesheet" href="styles.css"/>
     <title>Aaron Popp's page</title>
 </head>
 
 <body>
 
-<main>
-    <center> <!-- intro section -->
+<main> <!-- intro section -->
       <header>
-        <h1>A little bit about Aaron Popp</h1>
+        <h1>A little bit about me.</h1>
       </header>
-      <p>This page will serve to tell you a bit about me, while at the same time
-          helping me to learn HTML. Pretty cool, right?</p>
+      <p id="intro_format">This page will serve to tell you a bit about me, while at the same time
+          helping me to learn HTML.<br>Pretty cool, right?</p>
+
       <p>I've broken it down into three sections, just click on one to jump there.</p>
       <ul>
 	        <li><a href="#early">Early years</li>
 	        <li><a href="#post">Post-college</a></li>
 	        <li><a href="#recent">Recent years</a></li>
 	  </ul>
-    </center>
 
     <article> <!-- section one - used an entity!-->
       <header>
         <h3><a name="early">Early years</a></h3>
       </header>
-      <p>I was born in St. Louis, MO in 1976. I grew up in Hazelwood, MO in
+      <p id="body_p_format">I was born in St. Louis, MO in 1976. I grew up in Hazelwood, MO in
           north county and attended McNair elementary. It was here that I was first
-          exposed to coding - I learned some BASIC on a Commodore 64!</p>
-          <img src="images/basic.jpg">
-      <p>I attended Hazelwood West High School, and after graduation I attended
+          exposed to coding - I learned some BASIC on a Commodore 64!<br>
+          <img src="images/basic.jpg"><br>
+      I attended Hazelwood West High School, and after graduation I attended
           Truman State University in Kirksville, MO. I started college as a
           Physics major &amp; a Spanish minor, but Physics didn't work out very
           well for me, so I switched my major and graduated with a degree in Spanish.</p>
@@ -40,12 +40,12 @@
       <header>
         <h3><a name="post">Post-college</a></h3>
       </header>
-      <img src="images/somnia.jpg">
-      <p>After college, I started a rock band with my good friends and we decided that
+      <p id="body_p_format">
+         After college, I started a rock band with my good friends and we decided that
          we were going to be professional musicians. I got an administrative assistant job
          at a medical publishing company so I could work 9 to 5 and have weekends off to play shows.
-      </p>
-      <p>Becoming a financially-viable professional musician (i.e. actually making enough
+         <br><img src="images/somnia.jpg"><br>
+         Becoming a financially-viable professional musician (i.e. actually making enough
          money to live on) proved to be more difficult than we thought it would,
          but we gave it a try for 7 years or so. We disbanded in 2006, but I
          continued to play in cover bands until 2014.</p>
@@ -55,17 +55,18 @@
       <header>
         <h3><a name="recent">Recent years</a></h3>
       </header>
-      <p>Remember that 9 to 5 job I mentioned earlier? Well, I ended up working there
+      <p id="body_p_format">Remember that 9 to 5 job I mentioned earlier? Well, I ended up working there
          for 15 years - the job didn't satisfy me creatively, but it was a steady paycheck
          and I liked the people I worked with. So I stayed. However, in late 2015, my
-         company restructured my department and eliminated my position. I was out of a job.</p>
-      <p>After wandering and wavering for a while about my future, I decided to apply to
-          LaunchCode. And I made it in! So here I am, learning to code and preparing for the next
-          chapter of my life.</p>
-          <img src="images/launchcode.jpg">
+         company restructured my department and eliminated my position. I was out of a job.<br>
+         After wandering and wavering for a while about my future, I decided to apply to
+         LaunchCode. And I made it in! So here I am, learning to code and preparing for the next
+         chapter of my life.<br>
+         <img src="images/launchcode.jpg"><br>
+     </p>
     </article>
 
-    <footer>
+    <footer class="spaced_out">
       <p>Contact me at: <a href="mailto:a_popp@hotmail.com">
       a_popp@hotmail.com</a>.</p>
     </footer>
